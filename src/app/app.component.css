@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+body {
+  font-family: "Jost", sans-serif;
+  background-color: #ece5ce;
+  position: relative;
+  height: 700px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: #e08e79;
+  margin-top: 20px;
+  padding: 10px;
+  transition: 0.5s;
+  font-size: 30px;
+}
+
+.descripcion {
+  font: "Balsamiq Sans";
+  padding: 12 px;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  font-size: 35px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+.titulo {
+  font: "Pacifico";
+  margin-top: 80px;
+}
+
+.reposteria {
+  font-size: 52px;
+  color: #774f38;
+  margin-left: 60px;
+}
+
+.dulce-vida {
+  font-size: 52px;
+  color: #176671;
+  margin-left: 30px;
+}
+
+.cuerpo-tarjeta {
+  width: 865px;
+  height: 619px;
+  border: solid #ffff 10px;
+  background-color: #f4f4e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+  position: absolute;
+  text-align: justify;
+}
+
+.cuerpo-foto {
+  width: 688px;
+  height: 619px;
+  font-size: 42px;
+  border: solid #ffff 10px;
+  background-color: #f4f4e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 1100px;
+  position: absolute;
+}
+
+/*segunda parte, ordenar*/

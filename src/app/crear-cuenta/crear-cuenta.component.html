@@ -1,0 +1,74 @@
+<app-barra></app-barra>
+<body>
+  <div class="form-container">
+    <h1 class="titulo">Crear Cuenta</h1>
+    <form [formGroup]="contactForm">
+      <input type="text" formControlName="Nombre" placeholder="Nombre(s)" />
+      <input type="text" formControlName="Apellidos" placeholder="Apellidos" />
+      <input type="text" formControlName="Correo" placeholder="Correo" />
+      <input
+        type="text"
+        formControlName="ConfirCorreo"
+        placeholder="Confirmar Correo"
+      />
+      <input
+        type="text"
+        formControlName="Contrasena"
+        placeholder="Contraseña"
+      />
+      <input
+        type="text"
+        formControlName="Confircontra"
+        placeholder="Confirmar Contraseña"
+      />
+      <div class="check">
+        <input
+          type="checkbox"
+          name="ofertas"
+          class="ofertascheck"
+          value="true"
+          formControlName="ofertuki"
+        />
+        <label for="ofertuki" class="ofertasclass"> Recibir ofertas </label>
+        <br />
+        <input
+          type="checkbox"
+          name="terminos"
+          class="terminoscheck"
+          value="true"
+          formControlName="condicion"
+        />
+
+        <label for="condicion" class="condicionesclass">
+          Acepto términos y condicones
+        </label>
+      </div>
+      <button type="submit" class="btn-sent">Entrar</button>
+    </form>
+  </div>
+  <div class="contenedor2">
+    <table class="tablainfo">
+      <div class="textotabla">
+        <th>
+          <b> Contacto </b> <br />
+          Teléfono: 311 322 4598 <br />
+          correo: contacto@dulcevida.com
+        </th>
+        <th>
+          <b>Síguenos </b> <br />
+          Facebook <br />
+          Instagram
+        </th>
+        <th>
+          Preguntas frecuentes <br />
+          Políticas del sitio <br />
+          Términos y condiciones
+        </th>
+      </div>
+    </table>
+  </div>
+
+  <div class="contenedor3">
+    @Todos los derechos reservados. Repostería Dulce Vida 2020
+  </div>
+</body>

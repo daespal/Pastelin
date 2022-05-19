@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+body {
+  font-family: "Jost", sans-serif;
+  background-color: #ece5ce;
+  position: relative;
+  height: 1000px;
+}
+
+.imagenLogo {
+  margin-top: 20px;
+  margin-left: -650px;
+}
+.descripcion {
+  color: #42929d;
+  font-size: 45px;
+  font-weight: lighter;
+  line-height: 30px;
+  height: 240px;
+  margin-top: 80px;
+  margin-left: 800px;
+  position: absolute;
+  line-height: 60px;
+}
+
+.contenedor1 {
+  width: 1500px;
+  height: 550px;
+  background-color: #f4f4e1;
+  border: solid #ffff 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
+  position: absolute;
+  text-align: justify;
+  margin-top: 100px;
+}
+
+.contenedor2 {
+  height: 150px;
+  width: 1900px;
+  background-color: #42929d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  text-align: justify;
+  margin-top: 800px;
+}
+
+.contenedor3 {
+  height: 50px;
+  width: 1900px;
+  background-color: #176671;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  text-align: justify;
+  margin-top: 950px;
+  color: #ffff;
+  font-size: 27px;
+  align-items: center;
+  line-height: 40px;
+}
+
+.tablainfo {
+  margin-left: 0px;
+  table-layout: auto;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 200px 10px;
+}
+
+.textotabla {
+  color: #ffff;
+  font-size: 25px;
+  font-weight: lighter;
+  line-height: 30px;
+}

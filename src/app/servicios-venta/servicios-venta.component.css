@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+body {
+  font-family: "Jost", sans-serif;
+  background-color: #f4f4e1;
+  position: relative;
+  height: 1000px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: #e08e79;
+  margin-top: 20px;
+  padding: 10px;
+  transition: 0.5s;
+  font-size: 30px;
+}
+
+.imagenPast1 {
+  margin-top: -100px;
+  margin-left: 51px;
+  border-radius: 100px;
+}
+
+.imagenPastDos {
+  margin-top: -100px;
+  margin-left: 41px;
+  border-radius: 100px;
+}
+
+.imagenPastTres {
+  margin-top: -100px;
+  margin-left: 51px;
+  border-radius: 100px;
+}
+
+.descripcion {
+  padding: 12 px;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  font-size: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: lighter;
+  line-height: 30px;
+  height: 240px;
+}
+
+.titulo {
+  font: "Pacifico";
+  margin-top: 60px;
+  font-size: 56px;
+  color: #176671;
+  margin-left: 10px;
+  text-align: left;
+  z-index: 1;
+}
+
+.cuerpo-foto {
+  width: 688px;
+  height: 619px;
+  font-size: 42px;
+  border: solid #ffff 10px;
+  background-color: #f4f4e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 1100px;
+  position: absolute;
+}
+
+.tarjeta-pasteles {
+  width: 465px;
+  height: 589px;
+  background-color: #ece5ce;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+  position: absolute;
+  text-align: justify;
+  margin-top: 300px;
+  z-index: 0;
+}
+
+.tarjeta-mostacho {
+  width: 465px;
+  height: 589px;
+  background-color: #ece5ce;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+  position: absolute;
+  text-align: justify;
+  margin-left: 719px;
+  margin-top: 300px;
+  z-index: 0;
+}
+
+.tarjeta-pays {
+  width: 465px;
+  height: 589px;
+  background-color: #ece5ce;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+  position: absolute;
+  text-align: justify;
+  margin-left: 1360px;
+  margin-top: 300px;
+  z-index: 0;
+}
+
+/*segunda parte, ordenar*/
